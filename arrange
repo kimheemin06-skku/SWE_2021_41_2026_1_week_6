@@ -1,0 +1,5 @@
+#!/bin/bash
+for alphabet in {a..z}
+do
+    mv files/[$alphabet${alphabet^^}]* $alphabet/ 2>/dev/null
+done    
